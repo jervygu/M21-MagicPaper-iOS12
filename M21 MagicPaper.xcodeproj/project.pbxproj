@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6FD43824AB4D9900498C71 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9E6FD43724AB4D9900498C71 /* harrypotter.mp4 */; };
 		9ED3608D23EBD1FD00479727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED3608C23EBD1FD00479727 /* AppDelegate.swift */; };
 		9ED3608F23EBD1FD00479727 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED3608E23EBD1FD00479727 /* art.scnassets */; };
 		9ED3609123EBD1FD00479727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED3609023EBD1FD00479727 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E6FD43724AB4D9900498C71 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
 		9ED3608923EBD1FD00479727 /* M21 MagicPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M21 MagicPaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED3608C23EBD1FD00479727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ED3608E23EBD1FD00479727 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		9ED3608B23EBD1FD00479727 /* M21 MagicPaper */ = {
 			isa = PBXGroup;
 			children = (
+				9E6FD43724AB4D9900498C71 /* harrypotter.mp4 */,
 				9ED3608C23EBD1FD00479727 /* AppDelegate.swift */,
 				9ED3608E23EBD1FD00479727 /* art.scnassets */,
 				9ED3609023EBD1FD00479727 /* ViewController.swift */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					9ED3608823EBD1FD00479727 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -127,6 +131,7 @@
 			files = (
 				9ED3608F23EBD1FD00479727 /* art.scnassets in Resources */,
 				9ED3609923EBD1FF00479727 /* LaunchScreen.storyboard in Resources */,
+				9E6FD43824AB4D9900498C71 /* harrypotter.mp4 in Resources */,
 				9ED3609623EBD1FF00479727 /* Assets.xcassets in Resources */,
 				9ED3609423EBD1FD00479727 /* Main.storyboard in Resources */,
 			);
@@ -217,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,13 +294,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZBHT89JPN;
 				INFOPLIST_FILE = "M21 MagicPaper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jervygu.M21-MagicPaper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jervygu.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,13 +313,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZBHT89JPN;
 				INFOPLIST_FILE = "M21 MagicPaper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jervygu.M21-MagicPaper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jervygu.ARDicee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
